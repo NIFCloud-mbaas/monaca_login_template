@@ -1,4 +1,4 @@
-﻿# Monaca x NIFCloud mobile backend 会員ログインサンプル
+﻿# Monaca x NIFCLOUD mobile backend 会員ログインサンプル
 
 ===
 
@@ -6,13 +6,13 @@
 
 Monacaを用いて作ったアプリとmobile backendを連携して、ログイン機能を実装するサンプルコードとなります。
 * HTML/CSS/JavaScriptでマルチプラットフォーム（iOS/Android/Windowsなど）にアプリを開発できる統合開発環境[Monaca](https://ja.monaca.io/)
-* スマホアプリのサーバ側機能（プッシュ通知、会員管理、DBなど）をサーバ開発不要で実装できる[NIFCloud mobile backend](https://mbaas.nifcloud.com/?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
+* スマホアプリのサーバ側機能（プッシュ通知、会員管理、DBなど）をサーバ開発不要で実装できる[NIFCLOUD mobile backend](https://mbaas.NIFCLOUD.com/?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
 
 ![overview](readme-img/overview.JPG "概要図")
 
 ## Demo
 
-MonacaでgithubのURL（　https://github.com/NIFCLOUD-mbaas/monaca_login_template/archive/master.zip　）をインポートし、
+MonacaでgithubのURL（https://github.com/NIFCLOUD-mbaas/monaca_login_template/archive/master.zip） をインポートし、
 アプリケーションキーとクライントキーを設定してください。
 
 最初にログイン画面がでますので、「登録」ボタンを押し、登録画面へ遷移します。
@@ -44,22 +44,22 @@ MonacaでgithubのURL（　https://github.com/NIFCLOUD-mbaas/monaca_login_templa
   -  ローダーの設定は｢components/ncmb/min.js｣にチェックし｢OK｣ボタンを押す
   -  "JS/CSSコンポーネントをプロジェクトに追加しました。" 確認の｢OK｣ボタンを押す
 
-※ 詳細は[イントロダクション (Monaca) : クイックスタート](https://mbaas.nifcloud.com/doc/current/introduction/quickstart_monaca.html)をご参照ください
+※ 詳細は[イントロダクション (Monaca) : クイックスタート](https://mbaas.NIFCLOUD.com/doc/current/introduction/quickstart_monaca.html)をご参照ください
 
 ## Installation
 
 * Monacaで新規アプリ作成し、プロジェクトをインポートする。
   - Monacaの利用登録
-    [Monaca](https://ja.monaca.io/)
-![Monaca](readme-img/monaca.JPG "新規プロジェクト")
-  - Monacaでプロジェクトのインポートを選択し、新規プロジェクトを作成します。
-![create](readme-img/monaca_new_project.JPG "新規プロジェクト")
+    [Monaca](https://ja.monaca.io/) </br>
+<img src="readme-img/monaca.JPG" width="550" alt="新規プロジェクト" />
+  - Monacaでインポートを選択し、新規プロジェクトを作成します。
+<img src="readme-img/monaca_new_project.JPG" width="550" alt="新規プロジェクト" />
   - 「URLからインポートする」を選択し、URLに https://github.com/NIFCLOUD-mbaas/monaca_login_template/archive/master.zip を指定します。
-![create](readme-img/monaca_new_project_2.JPG "新規プロジェクト")
+<img src="readme-img/monaca_new_project_2.JPG" width="550" alt="新規プロジェクト" />
 
 * mobile backendでアプリ作成する
   - mobile backend 利用登録
-    [NIFCloud mobile backend](https://mbaas.nifcloud.com/?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
+    [NIFCLOUD mobile backend](https://mbaas.NIFCLOUD.com/?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
 ![register](readme-img/register.JPG "登録画面")
   - mobile backendでアプリ作成する
 ![newapp](readme-img/newapp.JPG "新規アプリ作成")
@@ -166,10 +166,10 @@ $.mobile.changePage('#LoginPage');
 データ保存・データ検索・会員管理・プッシュ通知などの機能を実装したい場合には、
 以下のドキュメントもご参考ください。
 
-* [ドキュメント](https://mbaas.nifcloud.com/doc/current/?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
-* [ドキュメント・データストア](https://mbaas.nifcloud.com/doc/current/sdkguide/javascript/datastore.html?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
-* [ドキュメント・会員管理](https://mbaas.nifcloud.com/doc/current/sdkguide/javascript/user.html?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
-* [ドキュメント・プッシュ通知](https://mbaas.nifcloud.com/doc/current/sdkguide/javascript/push.html?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
+* [ドキュメント](https://mbaas.NIFCLOUD.com/doc/current/?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
+* [ドキュメント・データストア](https://mbaas.NIFCLOUD.com/doc/current/sdkguide/javascript/datastore.html?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
+* [ドキュメント・会員管理](https://mbaas.NIFCLOUD.com/doc/current/sdkguide/javascript/user.html?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
+* [ドキュメント・プッシュ通知](https://mbaas.NIFCLOUD.com/doc/current/sdkguide/javascript/push.html?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
 
 ## Contributing
 
@@ -182,4 +182,4 @@ $.mobile.changePage('#LoginPage');
 ## License
 
 * MITライセンス
-* NIFCloud mobile backendのJavascript SDKのライセンス
+* NIFCLOUD mobile backendのJavascript SDKのライセンス
