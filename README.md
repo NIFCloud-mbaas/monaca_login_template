@@ -49,25 +49,29 @@ MonacaでgithubのURL（https://github.com/NIFCLOUD-mbaas/monaca_login_template/
 ## Installation
 
 * Monacaで新規アプリ作成し、プロジェクトをインポートする。
-  - Monacaの利用登録
-    [Monaca](https://ja.monaca.io/) </br>
-<img src="readme-img/monaca.JPG" width="550" alt="新規プロジェクト" />
-  - Monacaでインポートを選択し、新規プロジェクトを作成します。
-<img src="readme-img/monaca_new_project.JPG" width="550" alt="新規プロジェクト" />
-  - 「URLからインポートする」を選択し、URLに https://github.com/NIFCLOUD-mbaas/monaca_login_template/archive/master.zip を指定します。
-<img src="readme-img/monaca_new_project_2.JPG" width="550" alt="新規プロジェクト" />
+    * Monacaの利用登録
+    [Monaca](https://ja.monaca.io/)
+
+    <img src="readme-img/monaca.JPG" width="550" alt="新規プロジェクト" />
+    
+    * Monacaでインポートを選択し、新規プロジェクトを作成します。
+
+    <img src="readme-img/monaca_new_project.JPG" width="550" alt="新規プロジェクト" />
+    
+    * 「URLからインポートする」を選択し、URLに https://github.com/NIFCLOUD-mbaas/monaca_login_template/archive/master.zip を指定します。
+
+    <img src="readme-img/monaca_new_project_2.JPG" width="550" alt="新規プロジェクト" />
 
 * mobile backendでアプリ作成する
   - mobile backend 利用登録
     [NIFCLOUD mobile backend](https://mbaas.NIFCLOUD.com/?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
 ![register](readme-img/register.JPG "登録画面")
-  - mobile backendでアプリ作成する
+  - mobile backendでアプリ作成する  
 ![newapp](readme-img/newapp.JPG "新規アプリ作成")
 
 * Monacaで作成したアプリをmobile backendサーバーと連携させる
   - Monacaでアプリケーションキー、クライアントキーを設定し、初期化を行う
-
-![initialize2](readme-img/appKeyClientKey.JPG "初期化")
+![initialize2](readme-img/appKeyClientKey.JPG "初期化")  
 キーをコピーし、追記します。
 
 ![initialize](readme-img/appKeyClientKey_setting.JPG "初期化")
