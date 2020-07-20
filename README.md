@@ -1,5 +1,8 @@
 ﻿# Monaca x NIFCLOUD mobile backend 会員ログインサンプル
 
+<!-- PJ Update 2020/07/13 -->
+<!-- JS SDK Ver. 2.1.5 -->
+
 ===
 
 # Overview
@@ -12,7 +15,7 @@ Monacaを用いて作ったアプリとmobile backendを連携して、ログイ
 
 ## Demo
 
-MonacaでgithubのURL（https://github.com/NIFCLOUD-mbaas/monaca_login_template/archive/master.zip） をインポートし、
+MonacaでgithubのURL（https://github.com/NIFCLOUD-mbaas/monaca_login_template.git） をインポートし、
 アプリケーションキーとクライントキーを設定してください。
 
 最初にログイン画面がでますので、「登録」ボタンを押し、登録画面へ遷移します。
@@ -58,7 +61,7 @@ MonacaでgithubのURL（https://github.com/NIFCLOUD-mbaas/monaca_login_template/
 
     <img src="readme-img/monaca_new_project.JPG" width="550" alt="新規プロジェクト" />
     
-    * 「URLからインポートする」を選択し、URLに https://github.com/NIFCLOUD-mbaas/monaca_login_template/archive/master.zip を指定します。
+    * 「URLからインポートする」を選択し、URLに https://github.com/NIFCLOUD-mbaas/monaca_login_template.git を指定します。
 
     <img src="readme-img/monaca_new_project_2.JPG" width="550" alt="新規プロジェクト" />
 
