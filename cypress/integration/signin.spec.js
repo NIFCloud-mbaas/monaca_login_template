@@ -1,5 +1,6 @@
 describe('monaca login template', function () {
-    var email = 'test@email.com'
+    var email = 'test@gmail.com'
+    var pass = '123456'
     beforeEach(() => {
         cy.viewport('iphone-x')
         cy.visit('http://localhost:8080')
@@ -9,7 +10,7 @@ describe('monaca login template', function () {
         cy.get('.ui-title').should('have.contain', 'アプリデモ')
         cy.get('.ui-content').should('have.contain', 'ログイン')
         cy.get('#login_username').type(email, { delay: 100 }).should('have.value', email)
-        cy.get('#login_password').type('123456', { delay: 100 }).should('have.value', '123456')
+        cy.get('#login_password').type(pass, { delay: 100 }).should('have.value', pass)
         cy.get('#LoginBtn').should('have.contain', 'ログインする')
         cy.get('span').should('have.contain', '登録')
     })
@@ -22,7 +23,7 @@ describe('monaca login template', function () {
 
     it('signin success', function () {
         cy.get('#login_username').type(email, { delay: 100 }).should('have.value', email)
-        cy.get('#login_password').type('123456', { delay: 100 }).should('have.value', '123456')
+        cy.get('#login_password').type(pass, { delay: 100 }).should('have.value', pass)
         
         cy.get('#LoginBtn').click()
         cy.wait(2000)
@@ -36,7 +37,7 @@ describe('monaca login template', function () {
 
     it('sigout success', function () {
         cy.get('#login_username').type(email, { delay: 100 }).should('have.value', email)
-        cy.get('#login_password').type('123456', { delay: 100 }).should('have.value', '123456')
+        cy.get('#login_password').type(pass, { delay: 100 }).should('have.value', pass)
         
         let count = 0
         cy.on('window:alert', (str) => {

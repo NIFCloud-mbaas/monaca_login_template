@@ -1,9 +1,10 @@
 describe('monaca login template', function () {
     var email = ''
+    var pass = '123456'
     beforeEach(() => {
         cy.viewport('iphone-x')
         cy.visit('http://localhost:8080/#RegisterPage')
-        
+
         email = generate_random_string(8) + '@gmail.com'
     })
 
@@ -11,7 +12,7 @@ describe('monaca login template', function () {
         cy.get('.ui-title').should('have.contain', 'アプリデモ')
         cy.get('.ui-content').should('have.contain', '新規登録')
         cy.get('#reg_username').type(email, { delay: 100 }).should('have.value', email)
-        cy.get('#reg_password').type('123456', { delay: 100 }).should('have.value', '123456')
+        cy.get('#reg_password').type(pass, { delay: 100 }).should('have.value', pass)
         cy.get('#RegisterBtn').should('have.contain', '登録する')
         cy.get('span').should('have.contain', '戻る')
     })
@@ -23,8 +24,7 @@ describe('monaca login template', function () {
 
     it('signup success', function () {
         cy.get('#reg_username').type(email, { delay: 100 }).should('have.value', email)
-
-        cy.get('#reg_password').type('123456', { delay: 100 }).should('have.value', '123456')
+        cy.get('#reg_password').type(pass, { delay: 100 }).should('have.value', pass)
         
         cy.get('#RegisterBtn').click()
         cy.wait(2000)
