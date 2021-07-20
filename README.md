@@ -1,17 +1,25 @@
 ﻿# Monaca x NIFCLOUD mobile backend 会員ログインサンプル
 
 <!-- PJ Update 2020/07/13 -->
-<!-- JS SDK Ver. 2.1.5 -->
+<!-- JS SDK Ver. 3.0.0 -->
 
 ===
 
-# Overview
+* 本サンプルは不具合がある場合、issue等から報告いただくようにお願いいたします
+* 作成日：2015/8（更新日：2021/1）
+
+# 概要
 
 Monacaを用いて作ったアプリとmobile backendを連携して、ログイン機能を実装するサンプルコードとなります。
 * HTML/CSS/JavaScriptでマルチプラットフォーム（iOS/Android/Windowsなど）にアプリを開発できる統合開発環境[Monaca](https://ja.monaca.io/)
 * スマホアプリのサーバ側機能（プッシュ通知、会員管理、DBなど）をサーバ開発不要で実装できる[NIFCLOUD mobile backend](https://mbaas.NIFCLOUD.com/?utm_source=community&utm_medium=referral&utm_campaign=sample_monaca_login_template)
 
 ![overview](readme-img/overview.JPG "概要図")
+
+# 動作環境
+
+Cordova 9.0, Javascript SDK ver 3.0.0導入済み
+Monacaデバッグアプリ
 
 ## Demo
 
